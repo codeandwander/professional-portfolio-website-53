@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Photographer's Portfolio</a>
+      </div>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to my Portfolio</h1>
+        <p>Explore the world through my lens.</p>
+        <a href="#gallery" class="cta">View Gallery</a>
+      </div>
+      <div class="hero-image">
+        <img src="hero-image.jpg" alt="Hero Image">
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>My Photography Portfolio</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="gallery-image-1.jpg" alt="Gallery Image 1">
+          <div class="gallery-overlay">
+            <h3>Gallery Image 1</h3>
+            <p>Description of the image</p>
+            <a href="gallery-image-1.jpg" class="lightbox-trigger">View</a>
+          </div>
+        </div>
+        <!-- Add more gallery items here -->
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="about-image.jpg" alt="About Image">
+        </div>
+        <div class="about-text">
+          <h3>My Photography Journey</h3>
+          <p>
+            I am a freelance photographer with a passion for capturing the world around me. With years of experience, I have developed a unique style that blends artistic expression with technical expertise.
+          </p>
+          <p>
+            My work has been featured in various publications and exhibitions, and I am dedicated to continuing my creative journey. I hope you enjoy exploring my portfolio and learning more about my story.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Photographer's Portfolio. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox-overlay">
+    <div class="lightbox-content">
+      <img src="" alt="Lightbox Image">
+      <button class="lightbox-close">&times;</button>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.
